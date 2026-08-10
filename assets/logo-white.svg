@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <defs>
+    <!-- Vibrant Blue-Teal Gradient for the Icon -->
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Power plug combined with lightning bolt -->
+  <g transform="translate(10, 8)">
+    <!-- Main Circle Outline (Power button feel) -->
+    <circle cx="22" cy="22" r="18" stroke="url(#logo-grad)" stroke-width="3" fill="none" opacity="0.9" />
+    
+    <!-- Lightning Bolt Cutting Through -->
+    <path d="M22 6 L14 24 H21 L18 38 L30 18 H23 Z" fill="url(#logo-grad)" />
+  </g>
+  
+  <!-- Typography -->
+  <!-- "Electro" in White -->
+  <text x="60" y="38" font-family="'Outfit', 'Inter', 'Segoe UI', sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5px">Electro</text>
+  
+  <!-- "Hub" in Accent Blue -->
+  <text x="152" y="38" font-family="'Outfit', 'Inter', 'Segoe UI', sans-serif" font-size="26" font-weight="800" fill="url(#logo-grad)" letter-spacing="-0.5px">Hub</text>
+  
+  <!-- Subtle Dot Indicator -->
+  <circle cx="206" cy="34" r="4.5" fill="#38BDF8" />
+</svg>
