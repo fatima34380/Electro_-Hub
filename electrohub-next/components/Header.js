@@ -6,19 +6,25 @@ export default function Header({ onCategoryChange }) {
 
   const navLinks = [
     { label: 'All Products', category: 'All' },
+    { label: 'Mobiles', category: 'Mobiles' },
     { label: 'TVs', category: 'TVs' },
-    { label: 'Air Conditioners', category: 'ACs' },
-    { label: 'Washing Machines', category: 'Washing Machines' },
     { label: 'Laptops', category: 'Laptops' },
-    { label: 'Kitchen Appliances', category: 'Kitchen' },
+    { label: 'Audio', category: 'Audio' },
+    { label: 'Gaming', category: 'Gaming' },
+    { label: 'Appliances', category: 'ACs' },
   ];
 
   const mobileNavLinks = [
     { label: 'All Products', category: 'All' },
+    { label: 'Mobiles', category: 'Mobiles' },
     { label: 'TVs & Audio', category: 'TVs' },
+    { label: 'Laptops', category: 'Laptops' },
+    { label: 'Audio & Earbuds', category: 'Audio' },
+    { label: 'Gaming', category: 'Gaming' },
+    { label: 'Cameras', category: 'Cameras' },
+    { label: 'Monitors', category: 'Monitors' },
     { label: 'Air Conditioners', category: 'ACs' },
     { label: 'Washing Machines', category: 'Washing Machines' },
-    { label: 'Laptops & Mobiles', category: 'Laptops' },
     { label: 'Kitchen Appliances', category: 'Kitchen' },
   ];
 

@@ -2,13 +2,17 @@
 
 const headlines = [
   '🔥 SUMMER SALE — Up to 30% OFF on All Inverter ACs!',
+  '📱 New Arrivals: iPhone 15 Pro Max & Samsung Galaxy S24 Ultra Now In Stock!',
+  '🎧 Sony WF-1000XM5 Earbuds — Industry-Leading Noise Cancellation',
   '📦 FREE Home Delivery on Every Order — No Minimum Purchase',
-  '⚡ New Arrivals: Samsung QLED 4K TVs Now In Stock',
-  '🛡️ 100% Genuine Products with Official Brand Warranty',
+  '🎮 Gaming Zone: PS5 DualSense, Razer Headsets & More!',
   '💻 ASUS Zenbook & Dell XPS Laptops — Limited Stock Available',
+  '📷 Sony & GoPro Cameras — Capture Every Moment in 4K',
+  '🖥️ LG & Samsung Gaming Monitors — 165Hz to 240Hz Available',
   '🎁 Buy Any Appliance & Get Free Installation Service',
+  '🎙️ Rode & Blue Yeti Microphones for Streamers & Podcasters',
   '🌟 Over 10,000 Happy Customers — Join ElectroHub Today!',
-  '❄️ Dawlance & Haier ACs Starting from Just $499 — Shop Now',
+  '⚡ Apple AirPods Pro 2nd Gen — Now at Best Price Guaranteed!',
 ];
 
 export default function NewsTicker() {
