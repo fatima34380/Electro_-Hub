@@ -527,7 +527,7 @@ export const products = [
     rating: 4.8,
     reviewsCount: 289,
     badge: "sale",
-    image: "https://images.unsplash.com/photo-1527443224154-c4a573d5f5e4?auto=format&fit=crop&w=600&q=80",
+    image: "/assets/monitor-product.jpg",
     description: "LG UltraGear 27\" IPS gaming monitor with 165Hz refresh rate, 1ms response time, NVIDIA G-Sync Compatible, and HDR400. Stunning QHD resolution for competitive gaming and content creation.",
     specs: {
       "Brand": "LG",
@@ -547,7 +547,7 @@ export const products = [
     rating: 4.9,
     reviewsCount: 198,
     badge: "hot",
-    image: "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=600&q=80",
+    image: "/assets/monitor-product.jpg",
     description: "Samsung Odyssey G7 features a 1000R curved QLED panel at 240Hz, 1ms response, G-Sync & FreeSync Premium Pro, and HDR600. The ultimate immersive gaming experience for serious gamers.",
     specs: {
       "Brand": "Samsung",
