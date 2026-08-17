@@ -485,7 +485,7 @@ export const products = [
     rating: 4.8,
     reviewsCount: 312,
     badge: "sale",
-    image: "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?auto=format&fit=crop&w=600&q=80",
+    image: "/assets/camera-product.jpg",
     description: "Sony ZV-E10 is a compact mirrorless camera ideal for vloggers and content creators. APS-C sensor, interchangeable lens support, 4K video, real-time eye-tracking AF, and a fully rotating touchscreen.",
     specs: {
       "Brand": "Sony",
@@ -505,7 +505,7 @@ export const products = [
     rating: 4.7,
     reviewsCount: 421,
     badge: "hot",
-    image: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=600&q=80",
+    image: "/assets/camera-product.jpg",
     description: "GoPro HERO12 Black shoots stunning 5.3K video, has 10-bit color, HyperSmooth 6.0 stabilization, 27MP photos, and is waterproof to 10m. Perfect for adventure, sports, and travel content.",
     specs: {
       "Brand": "GoPro",
