@@ -59,21 +59,21 @@ export const products = [
   },
   {
     id: 4,
-    title: "LG InstaView French Door Refrigerator",
+    title: "Enviro Smart Digital Microwave Oven",
     category: "Kitchen",
-    price: 1299.00,
-    originalPrice: 1499.00,
-    rating: 4.9,
-    reviewsCount: 38,
-    badge: "hot",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
-    description: "Knock twice and see inside with the LG InstaView Refrigerator. Features Linear Cooling, Door-in-Door compartment, and custom air flow vents to keep food fresher, longer. Includes built-in water and ice dispenser.",
+    price: 129.00,
+    originalPrice: 159.00,
+    rating: 4.8,
+    reviewsCount: 175,
+    badge: "sale",
+    image: "/assets/kitchen-microwave.jpg",
+    description: "Enviro 20L Smart Digital Microwave Oven featuring multiple auto-cook preset menus, defrost function, precision rotary controls, and energy-efficient heating element.",
     specs: {
-      "Brand": "LG",
-      "Capacity": "655 Liters",
-      "Compressor": "Smart Inverter Compressor",
-      "Cooling Type": "Multi Air Flow",
-      "Warranty": "10 Years Compressor Warranty"
+      "Brand": "Enviro",
+      "Capacity": "20 Liters",
+      "Power": "800W Output",
+      "Functions": "Defrost, Reheat, Express Cook",
+      "Control": "Dual Rotary Knobs"
     }
   },
   {
@@ -116,116 +116,112 @@ export const products = [
   },
   {
     id: 7,
-    title: "Panasonic Inverter Microwave Oven",
+    title: "Artisan Wooden Cutting Board & Spice Prep Set",
     category: "Kitchen",
-    price: 189.00,
-    originalPrice: 0,
-    rating: 4.6,
-    reviewsCount: 61,
-    badge: "",
-    image: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=600&q=80",
-    description: "Enjoy quick and even cooking with Panasonic Inverter technology. Preserves texture and flavor of your meals while offering 12 auto-cook presets. Sleek mirror finish perfectly complements modern kitchens.",
+    price: 39.00,
+    originalPrice: 49.00,
+    rating: 4.9,
+    reviewsCount: 210,
+    badge: "hot",
+    image: "/assets/kitchen-cuttingboard.jpg",
+    description: "Handcrafted natural hardwood round chopping board set with wooden spoon, spice bowls, and garlic prep accessories. Durable, knife-friendly surface for professional meal prep.",
     specs: {
-      "Brand": "Panasonic",
-      "Capacity": "27 Liters",
-      "Power Output": "1000W Inverter Power",
-      "Control": "Touch Control Panel",
-      "Warranty": "1 Year Manufacturer Warranty"
+      "Material": "Natural Solid Hardwood",
+      "Diameter": "14 Inches",
+      "Accessories": "Wooden Spoon & Spice Bowls Included",
+      "Finish": "Food-Grade Organic Oil Finish"
     }
   },
   {
     id: 8,
-    title: "Philips Premium Air Fryer XXL",
+    title: "Ariete Vintage Professional Glass Blender",
     category: "Kitchen",
-    price: 249.00,
-    originalPrice: 0,
-    rating: 4.8,
-    reviewsCount: 204,
-    badge: "hot",
-    image: "https://images.unsplash.com/photo-1621972750749-0fbb1abb7736?auto=format&fit=crop&w=600&q=80",
-    description: "Cook healthy meals with up to 90% less fat. The Philips Air Fryer XXL features Twin TurboStar technology to remove excess fat and cook food evenly. Large capacity fits a whole chicken easily.",
+    price: 79.00,
+    originalPrice: 99.00,
+    rating: 4.7,
+    reviewsCount: 142,
+    badge: "new",
+    image: "/assets/kitchen-blender.jpg",
+    description: "Ariete high-performance countertop blender with heavy-duty 1.5L glass jar, 4 stainless steel crushed-ice blades, multiple speed settings, and retro design.",
     specs: {
-      "Brand": "Philips",
-      "Capacity": "7.3 Liters / 1.4 Kg",
-      "Technology": "Twin TurboStar Rapid Air",
-      "Dishwasher Safe": "Yes (Removable Parts)",
-      "Warranty": "2 Years Global Warranty"
+      "Brand": "Ariete",
+      "Jar Capacity": "1.5L Thermal Glass",
+      "Power": "1000W Motor",
+      "Blades": "4-Wing Stainless Steel",
+      "Speeds": "4 Speeds + Pulse"
     }
   },
   {
     id: 9,
-    title: "Sony Noise Cancelling Headphones WH-1000XM5",
+    title: "Universal Hard Shell Headphone Carrying Case Bag",
     category: "Accessories",
-    price: 349.00,
-    originalPrice: 0,
+    price: 19.00,
+    originalPrice: 29.00,
     rating: 4.9,
-    reviewsCount: 412,
+    reviewsCount: 310,
     badge: "hot",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
-    description: "Industry-leading noise cancelling wireless headphones. Equipped with Auto NC Optimizer, 30 hours battery life, and crystal-clear hands-free calling. Features Multipoint connection to switch between devices seamlessly.",
+    image: "/assets/accessory-headphonecase.jpg",
+    description: "Universal hard-shell protective travel case for over-ear headphones. Features durable water-resistant exterior, soft velvet interior lining, inner mesh pocket for cables & adapter.",
     specs: {
-      "Brand": "Sony",
-      "Battery Life": "30 Hours (ANC On)",
-      "Driver Unit": "30mm Dome Type",
-      "Connectivity": "Bluetooth 5.2 & Wired",
-      "Weight": "250 Grams"
+      "Type": "Hard Shell Carrying Case",
+      "Compatibility": "Universal (Sony, Bose, JBL, Beats)",
+      "Interior": "Soft Shockproof Velvet",
+      "Features": "Zipper Close & Cable Mesh Pocket"
     }
   },
   {
     id: 10,
-    title: "Logitech MX Master 3S Wireless Mouse",
+    title: "Premium Pastel Silicone Protective iPhone Cases",
     category: "Accessories",
-    price: 99.00,
-    originalPrice: 0,
+    price: 15.00,
+    originalPrice: 25.00,
     rating: 4.8,
-    reviewsCount: 510,
-    badge: "new",
-    image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
-    description: "Logitech MX Master 3S is an iconic mouse remastered. Features 8K DPI tracking on glass, ultra-quiet clicks, and MagSpeed electromagnetic scroll wheel for high-precision workflows.",
+    reviewsCount: 450,
+    badge: "sale",
+    image: "/assets/accessory-cases.jpg",
+    description: "Soft liquid silicone protective cases for iPhone series. Features anti-fingerprint matte texture, camera lens protection bump, micro-fiber inner lining, and vibrant pastel color options.",
     specs: {
-      "Brand": "Logitech",
-      "Sensor": "Darkfield high precision (8000 DPI)",
-      "Battery": "Rechargeable Li-Po (Up to 70 days)",
-      "Connectivity": "Logi Bolt & Bluetooth",
-      "Scroll Wheel": "MagSpeed Smartwheel"
+      "Material": "Liquid Silicone & Microfiber",
+      "Compatibility": "iPhone 13 / 14 / 15 / 16 Series",
+      "Protection": "Drop Proof & Camera Bump Shield",
+      "Colors": "Multi-Color Pastel Pack"
     }
   },
   {
     id: 11,
-    title: "Anker PowerCore 24K Power Bank",
+    title: "ICON MagSafe 22.5W Magnetic Power Bank with Stand",
     category: "Accessories",
-    price: 149.00,
-    originalPrice: 0,
-    rating: 4.7,
-    reviewsCount: 185,
-    badge: "",
-    image: "https://images.unsplash.com/photo-1609592424109-dd9892f1b17c?auto=format&fit=crop&w=600&q=80",
-    description: "Ultra-high capacity power bank with 140W fast charging. Features smart digital display showing output power, input power, and remaining recharge time. Perfect for laptops, tablets, and phones.",
+    price: 49.00,
+    originalPrice: 69.00,
+    rating: 4.9,
+    reviewsCount: 280,
+    badge: "new",
+    image: "/assets/accessory-powerbank.jpg",
+    description: "ICON IPW-102 MagSafe wireless magnetic fast-charging power bank. Features 22.5W fast output, built-in folding kickstand, dual integrated charging cables, and multi-color options.",
     specs: {
-      "Brand": "Anker",
-      "Capacity": "24,000 mAh",
-      "Max Output": "140W Power Delivery 3.1",
-      "Ports": "2 USB-C, 1 USB-A",
-      "Warranty": "18 Months Warranty"
+      "Brand": "ICON",
+      "Capacity": "10,000 mAh",
+      "Wireless Output": "22.5W Fast MagSafe",
+      "Features": "Built-in Foldable Stand & Dual Cables",
+      "Safety": "Over-heat & Short Circuit Shield"
     }
   },
   {
     id: 12,
-    title: "Kenwood Multi-Food Processor",
+    title: "Stainless Steel Fast-Boil Electric Kettle",
     category: "Kitchen",
-    price: 120.00,
-    originalPrice: 150.00,
-    rating: 4.4,
-    reviewsCount: 75,
+    price: 34.00,
+    originalPrice: 45.00,
+    rating: 4.8,
+    reviewsCount: 390,
     badge: "sale",
-    image: "https://images.unsplash.com/photo-1578643463396-0997cb5328c1?auto=format&fit=crop&w=600&q=80",
-    description: "Kenwood Multi-Food Processor is your ultimate kitchen assistant. Includes attachments for chopping, slicing, grating, and blending, powered by an 800W motor. Features 2.1 Liter capacity bowl.",
+    image: "/assets/kitchen-kettle.jpg",
+    description: "Fast-boiling 1.8L cordless electric kettle made of premium food-grade stainless steel with auto shut-off, boil-dry protection, and 360-degree swivel base.",
     specs: {
-      "Brand": "Kenwood",
-      "Power": "800 Watts",
-      "Capacity": "2.1 Liters Bowl",
-      "Speeds": "2 Speeds + Pulse",
-      "Warranty": "2 Years Motor Warranty"
+      "Capacity": "1.8 Liters",
+      "Power": "1500W Fast Boil",
+      "Material": "304 Food-Grade Stainless Steel",
+      "Safety": "Auto Shut-Off & Boil-Dry Protection"
     }
   },
 
@@ -552,83 +548,10 @@ export const products = [
     specs: {
       "Brand": "Samsung",
       "Panel": "32-inch VA QLED Curved",
+      "Resolution": "2560 x 1440",
+      "Refresh Rate": "240Hz",
+      "Curvature": "1000R",
       "HDR": "VESA DisplayHDR 600"
-    }
-  },
-
-  // --- KITCHEN APPLIANCES & TOOLS ---
-  {
-    id: 29,
-    title: "Enviro Smart Digital Microwave Oven",
-    category: "Kitchen",
-    price: 129.00,
-    originalPrice: 159.00,
-    rating: 4.8,
-    reviewsCount: 175,
-    badge: "sale",
-    image: "/assets/kitchen-microwave.jpg",
-    description: "Enviro 20L Smart Digital Microwave Oven featuring multiple auto-cook preset menus, defrost function, precision rotary controls, and energy-efficient heating element.",
-    specs: {
-      "Brand": "Enviro",
-      "Capacity": "20 Liters",
-      "Power": "800W Output",
-      "Functions": "Defrost, Reheat, Express Cook",
-      "Control": "Dual Rotary Knobs"
-    }
-  },
-  {
-    id: 30,
-    title: "Artisan Wooden Cutting Board & Spice Prep Set",
-    category: "Kitchen",
-    price: 39.00,
-    originalPrice: 49.00,
-    rating: 4.9,
-    reviewsCount: 210,
-    badge: "hot",
-    image: "/assets/kitchen-cuttingboard.jpg",
-    description: "Handcrafted natural hardwood round chopping board set with wooden spoon, spice bowls, and garlic prep accessories. Durable, knife-friendly surface for professional meal prep.",
-    specs: {
-      "Material": "Natural Solid Hardwood",
-      "Diameter": "14 Inches",
-      "Accessories": "Wooden Spoon & Spice Bowls Included",
-      "Finish": "Food-Grade Organic Oil Finish"
-    }
-  },
-  {
-    id: 31,
-    title: "Ariete Vintage Professional Glass Blender",
-    category: "Kitchen",
-    price: 79.00,
-    originalPrice: 99.00,
-    rating: 4.7,
-    reviewsCount: 142,
-    badge: "new",
-    image: "/assets/kitchen-blender.jpg",
-    description: "Ariete high-performance countertop blender with heavy-duty 1.5L glass jar, 4 stainless steel crushed-ice blades, multiple speed settings, and retro design.",
-    specs: {
-      "Brand": "Ariete",
-      "Jar Capacity": "1.5L Thermal Glass",
-      "Power": "1000W Motor",
-      "Blades": "4-Wing Stainless Steel",
-      "Speeds": "4 Speeds + Pulse"
-    }
-  },
-  {
-    id: 32,
-    title: "Stainless Steel Fast-Boil Electric Kettle",
-    category: "Kitchen",
-    price: 34.00,
-    originalPrice: 45.00,
-    rating: 4.8,
-    reviewsCount: 390,
-    badge: "sale",
-    image: "/assets/kitchen-kettle.jpg",
-    description: "Fast-boiling 1.8L cordless electric kettle made of premium food-grade stainless steel with auto shut-off, boil-dry protection, and 360-degree swivel base.",
-    specs: {
-      "Capacity": "1.8 Liters",
-      "Power": "1500W Fast Boil",
-      "Material": "304 Food-Grade Stainless Steel",
-      "Safety": "Auto Shut-Off & Boil-Dry Protection"
     }
   }
 ];
