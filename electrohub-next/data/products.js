@@ -463,12 +463,7 @@ export const products = [
       "Graphics": "HD 3D Battle Animations"
     }
   },
-  {
-    "Weight": "< 60g",
-    "Battery": "95 Hours",
-    "Connectivity": "LIGHTSPEED Wireless",
-    "Polling Rate": "2000Hz"
-  },
+
 
 
   // --- CAMERAS ---

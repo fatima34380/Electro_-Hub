@@ -228,6 +228,329 @@ const products = [
       "Safety": "Auto Shut-Off & Boil-Dry Protection"
     }
   },
+
+  // --- MOBILES ---
+  {
+    id: 13,
+    title: "Redmi 13 5G Dual SIM (Midnight Black)",
+    category: "Mobiles",
+    price: 199.00,
+    originalPrice: 249.00,
+    rating: 4.8,
+    reviewsCount: 420,
+    badge: "hot",
+    image: "assets/redmi-phone.jpg",
+    description: "Redmi 13 features a sleek Midnight Black finish, 108MP pro-grade main camera, 6.79-inch FHD+ 90Hz display, and Snapdragon 4 Gen 2 processor with 5000mAh battery & 33W fast charging.",
+    specs: {
+      "Brand": "Xiaomi Redmi",
+      "Model": "Redmi 13 5G",
+      "RAM & Storage": "8GB + 256GB",
+      "Display": "6.79-inch FHD+ 90Hz",
+      "Camera": "108MP Dual Camera",
+      "Battery": "5000 mAh (33W Fast Charge)"
+    }
+  },
+  {
+    id: 14,
+    title: "Samsung Galaxy A15 5G (Ice Blue)",
+    category: "Mobiles",
+    price: 229.00,
+    originalPrice: 279.00,
+    rating: 4.9,
+    reviewsCount: 580,
+    badge: "new",
+    image: "assets/samsung-phone.jpg",
+    description: "Samsung Galaxy A15 5G features a gorgeous 6.5-inch Super AMOLED 90Hz display, 50MP triple camera system, Octa-Core processor, and 5000mAh battery with 25W Super Fast Charging.",
+    specs: {
+      "Brand": "Samsung",
+      "Model": "Galaxy A15 5G",
+      "RAM & Storage": "8GB + 256GB",
+      "Display": "6.5-inch Super AMOLED 90Hz",
+      "Camera": "50MP + 5MP + 2MP Triple Camera",
+      "Battery": "5000 mAh"
+    }
+  },
+  {
+    id: 15,
+    title: "OnePlus Nord CE4 5G (Celadon Marble Green)",
+    category: "Mobiles",
+    price: 349.00,
+    originalPrice: 399.00,
+    rating: 4.9,
+    reviewsCount: 390,
+    badge: "sale",
+    image: "assets/oneplus-phone.jpg",
+    description: "OnePlus Nord CE4 5G features Snapdragon 7 Gen 3, 100W SUPERVOOC fast charging (1-100% in 28 mins), 50MP Sony LYT-600 OIS camera, and 120Hz Fluid AMOLED display.",
+    specs: {
+      "Brand": "OnePlus",
+      "Model": "Nord CE4 5G",
+      "RAM & Storage": "12GB + 256GB",
+      "Processor": "Snapdragon 7 Gen 3",
+      "Camera": "50MP Sony OIS + 8MP Ultra Wide",
+      "Charging": "100W SUPERVOOC"
+    }
+  },
+
+  // --- AUDIO ---
+  {
+    id: 16,
+    title: "Audionic Airbuds Pro TWS Wireless Earbuds",
+    category: "Audio",
+    price: 49.00,
+    originalPrice: 69.00,
+    rating: 4.8,
+    reviewsCount: 650,
+    badge: "hot",
+    image: "assets/audionic-earbuds.jpg",
+    description: "Audionic Airbuds Pro offer crystal-clear HD sound, deep bass response, touch controls, and up to 30 hours of battery life with wireless charging case. IPX5 sweat & water resistant.",
+    specs: {
+      "Brand": "Audionic",
+      "Model": "Airbuds Pro TWS",
+      "Battery": "6Hr + 24Hr (Case)",
+      "Charging": "Type-C Fast Charge",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "IPX5 Sweatproof"
+    }
+  },
+  {
+    id: 17,
+    title: "Professional Studio Condenser Microphone Kit",
+    category: "Audio",
+    price: 119.00,
+    originalPrice: 149.00,
+    rating: 4.9,
+    reviewsCount: 380,
+    badge: "new",
+    image: "assets/studio-mic.jpg",
+    description: "High-sensitivity cardioid studio microphone with boom arm stand, shock mount, and pop filter. Ideal for podcasting, studio vocal recording, gaming streaming, and YouTube content creation.",
+    specs: {
+      "Brand": "AudioPro",
+      "Type": "Studio Condenser Cardioid",
+      "Frequency Response": "20Hz – 20kHz",
+      "Connector": "XLR / USB-C Interface",
+      "Includes": "Boom Arm + Shock Mount + Pop Filter",
+      "Noise Reduction": "Active Noise Isolation"
+    }
+  },
+  {
+    id: 18,
+    title: "Premium Wireless Noise-Cancelling Headphones",
+    category: "Audio",
+    price: 189.00,
+    originalPrice: 229.00,
+    rating: 4.9,
+    reviewsCount: 890,
+    badge: "hot",
+    image: "assets/studio-headphones.jpg",
+    description: "Ultra-comfortable over-ear wireless headphones with active noise cancellation, plush memory foam earcups, 40mm HD drivers, and 45 hours of continuous playback.",
+    specs: {
+      "Brand": "ElectroSound",
+      "Type": "Over-Ear Wireless ANC",
+      "Battery Life": "45 Hours (ANC On)",
+      "Drivers": "40mm Neodymium",
+      "Connectivity": "Bluetooth 5.2 & 3.5mm Aux",
+      "Microphone": "Dual Beamforming Mics"
+    }
+  },
+  {
+    id: 19,
+    title: "Edifier Active Desktop Studio Speakers Pair",
+    category: "Audio",
+    price: 159.00,
+    originalPrice: 199.00,
+    rating: 4.8,
+    reviewsCount: 410,
+    badge: "sale",
+    image: "assets/edifier-speakers-copper.jpg",
+    description: "Edifier powered bookshelf studio speakers featuring 42W RMS output, dual RCA inputs, bass/treble acoustic control knobs, and silk dome tweeters for room-filling audiophile sound.",
+    specs: {
+      "Brand": "Edifier",
+      "Power Output": "42W RMS (21W + 21W)",
+      "Driver Units": "4-inch Bass + 13mm Tweeter",
+      "Inputs": "Dual RCA & 3.5mm Aux",
+      "Controls": "Volume, Bass, Treble Dial",
+      "Cabinet": "100% MDF Wooden Enclosure"
+    }
+  },
+  {
+    id: 20,
+    title: "Vintage Retro Bluetooth Wooden Radio Speaker",
+    category: "Audio",
+    price: 89.00,
+    originalPrice: 109.00,
+    rating: 4.7,
+    reviewsCount: 230,
+    badge: "new",
+    image: "assets/vintage-radio.jpg",
+    description: "Classic retro wooden AM/FM radio with modern Bluetooth 5.0 wireless speaker connectivity, warm acoustic tuning, brass rotary control dials, and 12-hour rechargeable battery.",
+    specs: {
+      "Brand": "RetroSound",
+      "Design": "Handcrafted Walnut Wood Enclosure",
+      "Functions": "FM/AM Radio + Bluetooth 5.0",
+      "Battery": "2200 mAh (12 Hours Playback)",
+      "Controls": "Analog Rotary Dials",
+      "Speaker": "10W Full Range Driver"
+    }
+  },
+
+  // --- GAMING ---
+  {
+    id: 21,
+    title: "High-Speed Asphalt Car Racing Game",
+    category: "Gaming",
+    price: 49.00,
+    originalPrice: 59.00,
+    rating: 4.9,
+    reviewsCount: 820,
+    badge: "hot",
+    image: "assets/car-racing-game.jpg",
+    description: "Experience extreme high-speed supercar racing with realistic physics, customizable cars, dynamic weather effects, and multiplayer street racing circuits.",
+    specs: {
+      "Genre": "Arcade & Racing",
+      "Platform": "PC / Console / Mobile",
+      "Graphics": "Ultra HD 4K 60FPS",
+      "Modes": "Single Player & Online Multiplayer",
+      "Age Rating": "Everyone (E)"
+    }
+  },
+  {
+    id: 22,
+    title: "Ultimate All-Star Sports Games Collection",
+    category: "Gaming",
+    price: 39.00,
+    originalPrice: 49.00,
+    rating: 4.8,
+    reviewsCount: 450,
+    badge: "sale",
+    image: "assets/sports-equipment.jpg",
+    description: "The complete sports game bundle featuring Football, Basketball, Tennis, Boxing, Golf, and Baseball with real-time motion controls and multiplayer tournaments.",
+    specs: {
+      "Genre": "Sports & Simulation",
+      "Games Included": "Football, Basketball, Tennis, Boxing, Golf",
+      "Multiplayer": "Up to 4 Players Co-Op",
+      "Controller Support": "Motion Controls & Gamepad"
+    }
+  },
+  {
+    id: 23,
+    title: "Brain Teaser Puzzles & Maze Challenge Game",
+    category: "Gaming",
+    price: 29.00,
+    originalPrice: 35.00,
+    rating: 4.7,
+    reviewsCount: 310,
+    badge: "new",
+    image: "assets/brain-puzzle-game.png",
+    description: "Test your IQ and logic with over 500+ intricate maze puzzles, logic riddles, and brain-teaser challenges designed for all ages.",
+    specs: {
+      "Genre": "Puzzle & Logic",
+      "Levels": "500+ Unique Maze Levels",
+      "Difficulty": "Easy to Expert",
+      "Features": "Daily Challenges & Leaderboards"
+    }
+  },
+  {
+    id: 24,
+    title: "Top Mobile Strategy & Kingdom War Games",
+    category: "Gaming",
+    price: 59.00,
+    originalPrice: 69.00,
+    rating: 4.9,
+    reviewsCount: 920,
+    badge: "hot",
+    image: "assets/mobile-strategy-game.jpg",
+    description: "Build your empire, command hero armies, and conquer enemy kingdoms in this top-rated real-time mobile strategy battle game.",
+    specs: {
+      "Genre": "Real-Time Strategy (RTS)",
+      "Platform": "Android / iOS / PC",
+      "Features": "Guild Wars & PvP Battles",
+      "Graphics": "HD 3D Battle Animations"
+    }
+  },
+
+  // --- CAMERAS ---
+  {
+    id: 25,
+    title: "Sony ZV-E10 Mirrorless Vlog Camera",
+    category: "Cameras",
+    price: 699.00,
+    originalPrice: 799.00,
+    rating: 4.8,
+    reviewsCount: 312,
+    badge: "sale",
+    image: "assets/camera-product.jpg",
+    description: "Sony ZV-E10 is a compact mirrorless camera ideal for vloggers and content creators. APS-C sensor, interchangeable lens support, 4K video, real-time eye-tracking AF, and a fully rotating touchscreen.",
+    specs: {
+      "Brand": "Sony",
+      "Sensor": "24.2MP APS-C CMOS",
+      "Video": "4K 30fps / 1080p 120fps",
+      "AF": "Real-Time Eye Tracking AF",
+      "Display": "3-inch Rotating Touchscreen",
+      "Mount": "Sony E-Mount"
+    }
+  },
+  {
+    id: 26,
+    title: "GoPro HERO12 Black Action Camera",
+    category: "Cameras",
+    price: 349.00,
+    originalPrice: 399.00,
+    rating: 4.7,
+    reviewsCount: 421,
+    badge: "hot",
+    image: "assets/camera-product.jpg",
+    description: "GoPro HERO12 Black shoots stunning 5.3K video, has 10-bit color, HyperSmooth 6.0 stabilization, 27MP photos, and is waterproof to 10m. Perfect for adventure, sports, and travel content.",
+    specs: {
+      "Brand": "GoPro",
+      "Video": "5.3K60 / 4K120 / 2.7K240",
+      "Photos": "27MP RAW",
+      "Stabilization": "HyperSmooth 6.0",
+      "Waterproof": "10 Meters",
+      "Battery": "Enduro Battery Included"
+    }
+  },
+
+  // --- MONITORS ---
+  {
+    id: 27,
+    title: "LG 27GP850-B 27\" IPS Gaming Monitor",
+    category: "Monitors",
+    price: 349.00,
+    originalPrice: 399.00,
+    rating: 4.8,
+    reviewsCount: 289,
+    badge: "sale",
+    image: "assets/monitor-product.jpg",
+    description: "LG UltraGear 27\" IPS gaming monitor with 165Hz refresh rate, 1ms response time, NVIDIA G-Sync Compatible, and HDR400. Stunning QHD resolution for competitive gaming and content creation.",
+    specs: {
+      "Brand": "LG",
+      "Panel": "27-inch IPS QHD",
+      "Resolution": "2560 x 1440",
+      "Refresh Rate": "165Hz",
+      "Response Time": "1ms (GtG)",
+      "HDR": "VESA DisplayHDR 400"
+    }
+  },
+  {
+    id: 28,
+    title: "Samsung 32\" Odyssey G7 Curved Monitor",
+    category: "Monitors",
+    price: 699.00,
+    originalPrice: 799.00,
+    rating: 4.9,
+    reviewsCount: 198,
+    badge: "hot",
+    image: "assets/monitor-product.jpg",
+    description: "Samsung Odyssey G7 features a 1000R curved QLED panel at 240Hz, 1ms response, G-Sync & FreeSync Premium Pro, and HDR600. The ultimate immersive gaming experience for serious gamers.",
+    specs: {
+      "Brand": "Samsung",
+      "Panel": "32-inch VA QLED Curved",
+      "Resolution": "2560 x 1440",
+      "Refresh Rate": "240Hz",
+      "Curvature": "1000R",
+      "HDR": "VESA DisplayHDR 600"
+    }
+  }
 ];
 
 // --- 2. GLOBAL STATE ---
