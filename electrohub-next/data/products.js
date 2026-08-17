@@ -552,21 +552,85 @@ export const products = [
     specs: {
       "Brand": "Samsung",
       "Panel": "32-inch VA QLED Curved",
-      "Resolution": "2560 x 1440",
-      "Refresh Rate": "240Hz",
-      "Curvature": "1000R",
       "HDR": "VESA DisplayHDR 600"
     }
   },
-  {
-    "Brand": "Samsung",
-    "Panel": "32-inch VA QLED Curved",
-    "Resolution": "2560 x 1440",
-    "Refresh Rate": "240Hz",
-    "Curvature": "1000R",
-    "HDR": "VESA DisplayHDR 600"
-  },
 
+  // --- KITCHEN APPLIANCES & TOOLS ---
+  {
+    id: 29,
+    title: "Enviro Smart Digital Microwave Oven",
+    category: "Kitchen",
+    price: 129.00,
+    originalPrice: 159.00,
+    rating: 4.8,
+    reviewsCount: 175,
+    badge: "sale",
+    image: "/assets/kitchen-microwave.jpg",
+    description: "Enviro 20L Smart Digital Microwave Oven featuring multiple auto-cook preset menus, defrost function, precision rotary controls, and energy-efficient heating element.",
+    specs: {
+      "Brand": "Enviro",
+      "Capacity": "20 Liters",
+      "Power": "800W Output",
+      "Functions": "Defrost, Reheat, Express Cook",
+      "Control": "Dual Rotary Knobs"
+    }
+  },
+  {
+    id: 30,
+    title: "Artisan Wooden Cutting Board & Spice Prep Set",
+    category: "Kitchen",
+    price: 39.00,
+    originalPrice: 49.00,
+    rating: 4.9,
+    reviewsCount: 210,
+    badge: "hot",
+    image: "/assets/kitchen-cuttingboard.jpg",
+    description: "Handcrafted natural hardwood round chopping board set with wooden spoon, spice bowls, and garlic prep accessories. Durable, knife-friendly surface for professional meal prep.",
+    specs: {
+      "Material": "Natural Solid Hardwood",
+      "Diameter": "14 Inches",
+      "Accessories": "Wooden Spoon & Spice Bowls Included",
+      "Finish": "Food-Grade Organic Oil Finish"
+    }
+  },
+  {
+    id: 31,
+    title: "Ariete Vintage Professional Glass Blender",
+    category: "Kitchen",
+    price: 79.00,
+    originalPrice: 99.00,
+    rating: 4.7,
+    reviewsCount: 142,
+    badge: "new",
+    image: "/assets/kitchen-blender.jpg",
+    description: "Ariete high-performance countertop blender with heavy-duty 1.5L glass jar, 4 stainless steel crushed-ice blades, multiple speed settings, and retro design.",
+    specs: {
+      "Brand": "Ariete",
+      "Jar Capacity": "1.5L Thermal Glass",
+      "Power": "1000W Motor",
+      "Blades": "4-Wing Stainless Steel",
+      "Speeds": "4 Speeds + Pulse"
+    }
+  },
+  {
+    id: 32,
+    title: "Stainless Steel Fast-Boil Electric Kettle",
+    category: "Kitchen",
+    price: 34.00,
+    originalPrice: 45.00,
+    rating: 4.8,
+    reviewsCount: 390,
+    badge: "sale",
+    image: "/assets/kitchen-kettle.jpg",
+    description: "Fast-boiling 1.8L cordless electric kettle made of premium food-grade stainless steel with auto shut-off, boil-dry protection, and 360-degree swivel base.",
+    specs: {
+      "Capacity": "1.8 Liters",
+      "Power": "1500W Fast Boil",
+      "Material": "304 Food-Grade Stainless Steel",
+      "Safety": "Auto Shut-Off & Boil-Dry Protection"
+    }
+  }
 ];
 
 export const slides = [
