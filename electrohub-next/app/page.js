@@ -5,7 +5,6 @@ import NewsTicker from '@/components/NewsTicker';
 import HeroCarousel from '@/components/HeroCarousel';
 import TrustBadges from '@/components/TrustBadges';
 import CategoryBanners from '@/components/CategoryBanners';
-import PromoBanner from '@/components/PromoBanner';
 import QuickCategories from '@/components/QuickCategories';
 import ProductCatalog from '@/components/ProductCatalog';
 import CartDrawer from '@/components/CartDrawer';
@@ -93,14 +92,17 @@ export default function Home() {
 
   return (
     <>
-      <Header onCategoryChange={setActiveCategory} />
       <NewsTicker />
+      <Header
+        onCategoryChange={setActiveCategory}
+        onOpenCart={() => setCartOpen(true)}
+        cartCount={cart.reduce((s, i) => s + i.quantity, 0)}
+      />
 
       <main className="main-content">
         <HeroCarousel onCategoryChange={setActiveCategory} />
         <TrustBadges />
         <CategoryBanners onCategoryChange={setActiveCategory} />
-        <PromoBanner />
         <QuickCategories onCategoryChange={setActiveCategory} />
         <ProductCatalog
           activeCategory={activeCategory}

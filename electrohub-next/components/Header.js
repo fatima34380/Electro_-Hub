@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 
-export default function Header({ onCategoryChange }) {
+export default function Header({ onCategoryChange, onOpenCart, cartCount = 0 }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navLinks = [
@@ -95,13 +95,13 @@ export default function Header({ onCategoryChange }) {
               </svg>
             </button>
 
-            <button className="control-btn cart-btn" id="cart-toggle-btn" aria-label="View Shopping Cart">
+            <button className="control-btn cart-btn" id="cart-toggle-btn" onClick={onOpenCart} aria-label="View Shopping Cart">
               <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" strokeWidth="2" fill="none">
                 <circle cx="9" cy="21" r="1"></circle>
                 <circle cx="20" cy="21" r="1"></circle>
                 <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
               </svg>
-              <span className="cart-badge-count" id="cart-badge-count">0</span>
+              <span className="cart-badge-count" id="cart-badge-count">{cartCount}</span>
             </button>
           </div>
         </div>

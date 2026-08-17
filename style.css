@@ -179,6 +179,115 @@ button {
   width: 100%;
 }
 
+/* --- 2.5 NEWS TICKER ANNOUNCEMENT BAR --- */
+.news-ticker-bar {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #0F172A 0%, #1E293B 50%, #0F172A 100%);
+  color: #F8FAFC;
+  height: 42px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-family: var(--font-body);
+  user-select: none;
+  z-index: 99;
+}
+
+.ticker-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 1.2px;
+  padding: 0 16px;
+  height: 100%;
+  flex-shrink: 0;
+  z-index: 10;
+  box-shadow: 4px 0 12px rgba(239, 68, 68, 0.35);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.ticker-label span {
+  display: inline-block;
+  line-height: 1;
+}
+
+.ticker-label::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #FFFFFF;
+  animation: pulseDot 1.2s infinite ease-in-out;
+}
+
+@keyframes pulseDot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.4; }
+}
+
+.ticker-track-wrapper {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  mask-image: linear-gradient(to right, transparent, #000 30px, #000 calc(100% - 30px), transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 30px, #000 calc(100% - 30px), transparent);
+}
+
+.ticker-track {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: tickerScroll 45s linear infinite;
+  will-change: transform;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: #E2E8F0;
+  padding: 0 20px;
+  letter-spacing: 0.2px;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.ticker-item:hover {
+  color: var(--accent-teal);
+}
+
+.ticker-dot {
+  margin-left: 20px;
+  color: var(--accent-teal);
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@keyframes tickerScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 /* --- 3. HEADER & NAVIGATION --- */
 .main-header {
   position: sticky;
